@@ -4,10 +4,14 @@ import { defineConfig } from 'vite'
 import VueRouter        from 'unplugin-vue-router/vite'
 import vue              from '@vitejs/plugin-vue'
 
-export default defineConfig(({ command}) => ({
+export default defineConfig(({ command }) => ({
     plugins: [
         VueRouter(),
-        vue()
+        vue({
+            script: {
+                defineModel: true
+            }
+        })
     ],
     base   : command === 'serve' ? '/' : '/profile-page',
     resolve: {
