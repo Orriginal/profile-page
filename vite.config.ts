@@ -13,7 +13,7 @@ export default defineConfig(({ command }) => ({
             }
         })
     ],
-    base   : command === 'serve' ? '/' : '/profile-page',
+    base   : command === 'serve' ? '/' : '/profile-page/',
     resolve: {
         alias: {
             '@'   : fileURLToPath(new URL('./src', import.meta.url)),
