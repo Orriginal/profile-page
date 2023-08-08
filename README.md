@@ -1,7 +1,9 @@
 # profile-page
 
 This is an example project for an assignment. The answers on questions of the assignment are in
-the [ASSIGNMENT.md](./ASSIGNEMENT.md). A live demo of this product you can find on the following link: https://orriginal.github.io/profile-page/
+the [ASSIGNMENT.md](./ASSIGNEMENT.md). A live demo of this product you can find on the following link: https://orriginal.github.io/profile-page/.
+
+The components build has its own example documentation library: https://jankuipersdevelopment.nl/
 
 
 ## Project Setup
