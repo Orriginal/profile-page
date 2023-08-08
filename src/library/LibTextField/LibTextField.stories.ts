@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/vue3'
 import LibTextField            from './LibTextField.vue'
 
 const meta: Meta = {
-    title    : 'library/LibTextField',
+    title    : 'library/lib-text-field',
     component: LibTextField,
     tags     : ['autodocs'],
     argTypes : {

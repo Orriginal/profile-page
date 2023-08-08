@@ -7,7 +7,7 @@ import LibButton      from '@lib/LibButton/LibButton.vue'
 import EditIcon       from '@/components/Icons/EditIcon.vue'
 
 const meta: Meta = {
-    title    : 'Library/LibCard', // Use a string, not a variable
+    title    : 'Library/lib-card', // Use a string, not a variable
     component: LibCard, // Use the component name, not a variable
     tags     : ['autodocs'],
     argTypes : {

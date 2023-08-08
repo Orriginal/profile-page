@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/vue3'
 import LibCircularLoader       from './LibCircularLoader.vue'
 
 const meta: Meta = {
-    title    : 'library/LibCircularLoader',
+    title    : 'library/lib-circular-loader',
     component: LibCircularLoader,
     tags     : ['autodocs'],
     argTypes : {}

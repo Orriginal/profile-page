@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/vue3'
 import LibAvatar               from './LibAvatar.vue'
 
 const meta: Meta = {
-    title    : 'Library/LibAvatar',
+    title    : 'Library/lib-avatar',
     component: LibAvatar,
     tags     : ['autodocs'],
     argTypes : {
@@ -33,7 +33,7 @@ export const AvatarSmallLoading: Story = {
     args: {
         alt      : 'Small Avatar Loading',
         size     : 'small',
-        isLoading: true
+        isLoading: false
     }
 }
 

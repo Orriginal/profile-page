@@ -28,3 +28,4 @@ profile-page/.vscode/extensions.json
 *.sln
 *.sw?
 
+/storybook-static

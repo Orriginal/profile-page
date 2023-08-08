@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/vue3'
 import LibHeader               from './LibHeader.vue'
 
 const meta: Meta = {
-    title    : 'library/LibHeader',
+    title    : 'library/lib-header',
     component: LibHeader,
     tags     : ['autodocs'],
     argTypes : {

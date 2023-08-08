@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/vue3'
 import LibEditableField        from './LibEditableField.vue'
 
 const meta: Meta = {
-    title    : 'library/LibEditableField',
+    title    : 'library/lib-editable-field',
     component: LibEditableField,
     tags     : ['autodocs'],
     argTypes : {
