@@ -11,11 +11,11 @@ const router = useRouter()
 </script>
 
 <template>
-    <div class='flex'>
+    <div class='flex h-fit'>
         <lib-card class='max-w-2xl'>
             <lib-card-header label='Welcome!' />
 
-            <lib-card-content class='flex flex-col gap-4'>
+            <lib-card-content class='flex flex-col gap-4 '>
                 <lib-paragraph>
                     Thank you for visiting our example project, which serves as a showcase of our coding skills for this
                     assignment. Within this demonstration, you will find a profile-page designed to provide a glimpse of

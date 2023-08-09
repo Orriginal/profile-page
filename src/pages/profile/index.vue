@@ -21,7 +21,7 @@ const onFileChange = async (file: File): Promise<void> => {
 </script>
 
 <template>
-    <div class='flex flex-col gap-8 w-full md:max-w-lg px-4'>
+    <div class='flex flex-col gap-8 w-full md:max-w-lg h-fit'>
         <lib-avatar
             :src='imageUrl'
             :is-loading='isLoading'
